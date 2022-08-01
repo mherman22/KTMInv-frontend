@@ -1,14 +1,10 @@
-import Login from "./components/Access/Login";
+import Register from "./components/Access/Register";
+import "./app.css";
 
 function App() {
   return (
-    <div>
-      <header>
-        <p>
-          KTMInv Web Application
-        </p>
-        <Login/>
-      </header>
+    <div className="app">
+        <Register/>
     </div>
   );
 }
