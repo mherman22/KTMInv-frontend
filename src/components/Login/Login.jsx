@@ -43,7 +43,7 @@ export default function Login() {
             />
           ))}
           <button>Login</button>
-          <p>New User?  <link> Register</link></p>
+          <p>New User?  <a href='#'> Register</a></p>
         </form>
     </div>
   )
