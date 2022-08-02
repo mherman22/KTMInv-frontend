@@ -1,6 +1,6 @@
 const LoginInputs = [
     {
-        id:3,
+        id:1,
         name:"username",
         type:"text",
         placeholder:"userName",
@@ -8,7 +8,7 @@ const LoginInputs = [
         label:"userName"
     },
     {
-        id:6,
+        id:2,
         name:"password",
         type:"password",
         placeholder:"Password",
@@ -16,5 +16,4 @@ const LoginInputs = [
         label:"Password"
     },
 ]
-
 export default LoginInputs;
