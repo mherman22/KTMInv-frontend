@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import FormInput from '../Form Input/FormInput';
+import './Register.css';
 
 export default function Register() {
 

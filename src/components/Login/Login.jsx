@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import FormInput from '../Form Input/FormInput';
+import './Login.css';
 
 export default function Login() {
 
@@ -42,6 +43,7 @@ export default function Login() {
             />
           ))}
           <button>Login</button>
+          <p>New User?  <link> Register</link></p>
         </form>
     </div>
   )
