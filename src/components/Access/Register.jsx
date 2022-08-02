@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import FormInput from '../Form Input/FormInput';
-import inputs from './inputs';
+import inputs from './inputs/inputs';
 
 export default function Register() {
 

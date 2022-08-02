@@ -4,8 +4,8 @@
     justify-content: center;
     height: 100vh;
     background: linear-gradient(
-        white,
-        gray
+        rgb(13, 134, 23),
+        rgb(15, 132, 179)
     );
     background-size: cover;
     background-position: center;
