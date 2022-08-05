@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import FormInput from '../Form Input/FormInput';
 import '../index.css';
 
@@ -79,6 +80,7 @@ export default function Register() {
           />
         ))}
         <button>Register</button>
+        <p>Already have an account?  <Link to="/">Sign In</Link></p>
       </form>
     </div>
   );
