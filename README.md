@@ -3,10 +3,8 @@ This is the frontend (ui) for https://github.com/mherman22/KTMInv \
 It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). I have not used any library in this project (yet).
 
 ### Technologies used?
-- Reactjs
-- JSX
-- Babel
-- Css
+- Reactjs, Babel and JSX.
+- Css.
 
 ### How to run this application?
 - clone it onto your machine by running `git clone https://github.com/mherman22/KTMInv-frontend.git`.
