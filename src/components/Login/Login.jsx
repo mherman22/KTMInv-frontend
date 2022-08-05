@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import FormInput from '../Form Input/FormInput';
 import '../index.css';
+import FormInput from '../Form Input/FormInput';
+import { Link } from 'react-router-dom';
 
 export default function Login() {
 
@@ -45,7 +46,7 @@ export default function Login() {
           />
         ))}
         <button>Login</button>
-        <p>New User?  <a href='/src/components/Register/Register.jsx'> Register</a></p>
+        <p>New User?  <Link to="/register-user">Register</Link></p>
       </form>
     </div>
   )
