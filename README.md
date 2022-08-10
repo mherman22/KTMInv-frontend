@@ -3,7 +3,8 @@ This is the frontend (ui) for https://github.com/mherman22/KTMInv \
 It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). I have not used any library in this project (yet).
 
 ### Technologies used?
-- Reactjs, Babel and JSX.
+- Reactjs.
+- React-router-dom.
 - Css.
 
 ### How to run this application?
@@ -54,8 +55,16 @@ To learn more about React, explore the following links;-
 - Deployment: This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment).
 - `npm run build` fails to minify: This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify).
 
-### some screenshots
-![Login](/public/assets/frontpage.PNG "frontpage")
+## some screenshots
+![Login](/public/assets/login.png "frontpage")
+![Register](/public/assets/Screenshot%20from%202022-08-10%2010-30-58.png)
+
+### Up coming additions
+- Handling Authentication and Authorisation
+- Home dashboard.
+- Dockerising.
+- Unit tests.
+- E2E tests.
 
 ### Contributor(s)
 

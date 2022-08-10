@@ -36,7 +36,7 @@ export default function Login() {
   return (
     <div className='Login-form'>
       <form onSubmit={handleSubmit}>
-        <h1>Login</h1>
+        {/* <h1>Login</h1> */}
         {LoginInputs.map(input => (
           <FormInput
             key={input.id}

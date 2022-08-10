@@ -21,21 +21,21 @@ export default function Register() {
   const inputs = [
     {
       id: 1, name: "firstName", type: "text", placeholder: "First Name",
-      error: "First Name should be 3 to 16 upper case characters and should not include any special characters",
+      error: "Between 3-16 characters & can not have special characters",
       label: "First Name",
       pattern: "^[A-Za-z]{3,16}$",
       required: true
     },
     {
       id: 2, name: "lastName", type: "text", placeholder: "Last Name",
-      error: "Last Name should be 3 to 16 upper case characters and should not include any special characters",
+      error: "Between 3-16 characters & can not have special characters",
       label: "Last Name",
       pattern: "^[A-Za-z]{3,16}$",
       required: true
     },
     {
       id: 3, name: "username", type: "text", placeholder: "username",
-      error: "Username should be 3 to 16 characters and should not include any special characters",
+      error: "Between 3-16 characters & can not have special characters",
       label: "username",
       pattern: "^[a-z0-9]{3,16}$",
       required: true
@@ -53,7 +53,7 @@ export default function Register() {
     },
     {
       id: 6, name: "password", type: "password", placeholder: "Password",
-      error: "Password should contain Minimum 8 characters, at least one uppercase letter, one lowercase letter, one number and one special character",
+      error: "Minimum 8 characters,1 uppercase,1 lowercase letter,1 number and 1 special character",
       label: "Password",
       pattern: "^(?=.*[0-9])(?=.*[a-zA-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{8,20}$",
       required: true
@@ -69,7 +69,7 @@ export default function Register() {
 
   return (
     <div className='register-form'>
-      <h1>User Registration</h1>
+      {/* <h1>User Registration</h1> */}
       <form onSubmit={handleSubmit}>
         {inputs.map(input => (
           <FormInput
