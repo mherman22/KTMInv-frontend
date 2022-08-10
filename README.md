@@ -56,8 +56,9 @@ To learn more about React, explore the following links;-
 - `npm run build` fails to minify: This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify).
 
 ## some screenshots
-![Login](/public/assets/login.png "frontpage")
-![Register](/public/assets/Screenshot%20from%202022-08-10%2010-30-58.png)
+| Login Screenshot  | Register Screenshot |
+| ------------- | ------------- |
+| ![Login](/public/assets/login.png "frontpage")  | ![Register](/public/assets/Screenshot%20from%202022-08-10%2010-30-58.png) |
 
 ### Up coming additions
 - Handling Authentication and Authorisation
