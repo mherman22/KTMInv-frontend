@@ -14,7 +14,7 @@ export default function FormInput(props) {
   return (
     <div className='form-input'>
       <label>{label}</label>
-      <input
+      <input className='input-form'
         {...inputProps}
         onChange={onChange}
         onBlur={handleBlur}
