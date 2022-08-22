@@ -5,7 +5,7 @@ It was bootstrapped with [Create React App](https://github.com/facebook/create-r
 ### Technologies used?
 - Reactjs.
 - React-router-dom.
-- Css.
+- Tailwind Css.
 
 ### How to run this application?
 - clone it onto your machine by running `git clone https://github.com/mherman22/KTMInv-frontend.git`.
