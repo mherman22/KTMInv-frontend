@@ -1,6 +1,6 @@
 # KTMInv Frontend
 This is the frontend (ui) for https://github.com/mherman22/KTMInv \
-It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). I have not used any library in this project (yet).
+It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ### Technologies used?
 - Reactjs with jsx
@@ -45,7 +45,7 @@ The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!\
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### Learn More
+### For More information
 To learn more about React, explore the following links;-
 - You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started) and also check out the [React documentation](https://reactjs.org/).
 - Code Splitting: This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting).
