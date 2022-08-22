@@ -2,9 +2,9 @@ name: Run on node
 
 on:
   push:
-    branches: [ master]
+    branches: [ "master"]
   pull_request:
-    branches: [ master]
+    branches: [ "master"]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,7 +13,6 @@ jobs:
         node-version: [12.x, 14.x, 16.x]
 
     steps:
-    - name: setup node
     - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
